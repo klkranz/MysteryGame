@@ -1,6 +1,4 @@
-# import variables from Game.py
-from Game import *
-
+title = "A Murder at Chroma Manor"
 setting = "As your car pulls up the long drive, the imposing manor comes into view. It appears weathered and faded, " \
           "but stoic and solid. Detective Sergeant Lewis appears to be waiting just outside the grand entrance for you."
 det_sergeant = "Detective Sergeant Lewis"
@@ -11,7 +9,7 @@ intro = 'Scratching his head, Detective Sergeant Lewis says, “We have an unusu
         'he found signs that multiple attempts on the victim’s life were made with various methods. What’s more, ' \
         'Medical Examiner Stevenson says the shot is unlikely to have killed him. The question seems to be who ' \
         'didn’t try to kill him. The witnesses are all in the conservatory and we took the housekeeper’s keys and ' \
-        'locked all the other doors until we can do a thorough search. What would you like to do first?'
+        'locked all the other doors until we can do a thorough search.'
 primary_menu = {
     1: 'Examine the scene of the crime',
     2: 'Question the primary suspect',
@@ -61,13 +59,13 @@ display_menu = {
     2: ''
 }
 pri_susp_main_menu = {
-    1: f'Detective Chief Inspector {DCI}: “Before I ask any questions, do you have any statement you would like to make?”',
-    2: f'Detective Chief Inspector {DCI}: “Tell me exactly what happened in the study.”',
-    3: f'Detective Chief Inspector {DCI}: “We’re hoping you can help explain a few things. What can you tell us about the day’s events?”'
+    1: 'Before I ask any questions, do you have any statement you would like to make?',
+    2: 'Tell me exactly what happened in the study.',
+    3: 'We’re hoping you can help explain a few things. What can you tell us about the day’s events?'
 }
 pri_susp_sub_menu = {
-    1: 'Detective Chief Inspector {DCI}: “Your shot didn’t kill him. In fact, it seems we was dead for sometime before.”',
-    2: 'Detective Chief Inspector {DCI}: “We only found one gunshot wound. A grazing head shot.”'
+    1: 'Your shot didn\'t kill him. In fact, it seems we was dead for sometime before.',
+    2: 'We only found one gunshot wound. A grazing head shot.'
 }
 rooms_menu = {
     1: '',
